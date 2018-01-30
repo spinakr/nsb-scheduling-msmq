@@ -1,0 +1,1 @@
+<?xml version="1.0"?><ScheduledTask xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.net/NServiceBus"><TaskId>8aac4abc-69cd-4cc6-8653-9a9f87cbae3c</TaskId><Name>Program</Name><Every>PT5S</Every></ScheduledTask>
