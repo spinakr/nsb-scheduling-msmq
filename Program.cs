@@ -15,6 +15,8 @@ namespace nsb_scheduling_msmq
             endpointConfig.UseTransport<MsmqTransport>();
             endpointConfig.UsePersistence<InMemoryPersistence>();
             endpointConfig.SendFailedMessagesTo("Test.error");
+            
+            endpointConfiguration.AssemblyScanner().ExcludeAssemblies("NServiceBus.Azure.Transports.WindowsAzureStorageQueues.dll");
 
             var msmqEndpoint = await Endpoint.Start(endpointConfig).ConfigureAwait(false);
 
