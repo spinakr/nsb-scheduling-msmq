@@ -8,6 +8,8 @@
 *.user
 *.sln.docstates
 
+.learningtransport
+
 # Build results
 [Dd]ebug/
 [Rr]elease/
